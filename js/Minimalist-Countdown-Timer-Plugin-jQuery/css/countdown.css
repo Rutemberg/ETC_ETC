@@ -1,0 +1,45 @@
+
+.countdown {
+    font-family: 'Roboto-Light';
+    text-transform: uppercase;
+/*    border: 2px solid #00324c;*/
+    float: right;
+    /*    background-color: #e7e7e7;*/
+    background: url("../../../Imagem/Icones/BackTextColdown.png")no-repeat top;
+    -webkit-background-size: 100% 96%;
+    -moz-background-size: 100% 96%;
+    -o-background-size: 100% 96%;
+    background-size: 100% 96%;
+    position: relative;
+    z-index: 3;
+    padding-left: 50px;
+    padding-right: 20px;
+    
+
+}
+
+.countdown > div { display: inline-block; }
+
+.countdown > div > span {
+    display: block;
+    text-align: center;
+}
+
+.countdown-container { margin: 0 3px; }
+
+.countdown-container .countdown-heading {
+    font-size: 11px;
+    margin: 3px;
+    color: #e7e7e7;
+    text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67) ;
+}
+
+.countdown-container .countdown-value {
+    font-size: 25px;
+    padding: 10px;
+    color: #e7e7e7;
+    text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67) ;
+    border-radius:5px;
+    font-family: 'Roboto-Bold';
+
+}

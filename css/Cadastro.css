@@ -1,0 +1,171 @@
+.CorpoCadastro{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    overflow: hidden;
+    display: none
+
+}
+.Cadastro{
+    width: 700%;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.etapas_cadastro{
+    width: 14.25%;
+    height: 100%;
+    margin: 0 auto;
+    float: left;
+    text-align: center;
+    position: relative;
+    display: table;
+}
+.cabecalho_cadastro_etapa{
+    /*    border: 1px solid black;*/
+    height: 180px;
+    padding: 10px 0;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.cabecalho_cadastro_etapa img{
+    /*    border: 1px solid black;*/
+    height: 100%;
+
+}
+.ImgRegulamento img{
+    -webkit-transition:  cubic-bezier(.190, 1.000, .500, 1.000) all .4s;
+    -moz-transition: cubic-bezier(.190, 1.000, .500, 1.000) all .4s;
+    -ms-transition: cubic-bezier(.190, 1.000, .500, 1.000) all .4s;
+    -o-transition: cubic-bezier(.190, 1.000, .500, 1.000) all .4s;
+    transition: cubic-bezier(.190, 1.000, .500, 1.000) all .4s;  
+    cursor: pointer
+}
+.ImgRegulamento:hover img{
+    transform: scale(1.1);
+}
+.ChekedRegulamento{
+    opacity: 0
+}
+input{
+    height: 50px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #00324c;
+    border: 3px solid silver;
+    font-size: 16px;
+    font-family: "Roboto-Regular";
+    text-align: center
+}
+.regulamento{
+    height: 16px;
+    width: 16px;
+    margin: 0 auto;
+    margin-top: 0;
+    color: #00324c;
+    border: none;
+    font-size: 16px;
+
+
+}
+.cadastro_button{
+    position: absolute;
+    height: 100%;
+    right: 10px;
+    top: 0;
+    width: 70px;
+    /*    border: 1px solid black;*/
+    background: url("../Imagem/IconesCadastro/seguircadastro.png") no-repeat center center;
+    background-size: 100% auto;
+    cursor: pointer;
+    display: none
+}
+
+.item_participante{
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+}
+.item_participante input{
+    padding: 0;
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 0;
+    color: #00324c;
+    border: 3px solid silver;
+    font-size: 16px;
+    font-family: "Roboto-Regular";
+    text-align: center
+}
+
+.cadastro_concluido_back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+    display: table;
+    display: none;
+}
+.cadastro_concluido_robot{
+    position: absolute;
+    width: 700px;
+    height: 150px;
+    top: 0;
+    left: 0;
+    top: 50%;
+    margin-top: -75px;
+    left: 50%;
+    margin-left: -350px;
+
+}
+.cadastro_concluido{
+    vertical-align: middle;
+    display: table-cell;
+    position: static;
+
+}
+.robot_img{
+    height: 150px;
+    width: 200px;
+    float: left;
+    text-align: center
+
+}
+.robot_img img{
+    height: 150px;
+}
+.robot_diag{
+    height: 90px;
+    margin-top: 10px;
+    width: 440px;
+    float: left;
+    background: white;
+    box-shadow: 1px 1px 30px 3px rgba(0,40,60,.1);
+    padding: 20px;
+    overflow: auto;
+    font-size: 25px;
+    font-family: "Roboto-Regular";
+    color: #23557d;
+    cursor: pointer
+}
+.robot_diag::-webkit-scrollbar-track {
+    background: none;
+}
+.robot_diag::-webkit-scrollbar {
+    width: 7px;
+}
+.robot_diag::-webkit-scrollbar-thumb {
+    background: #e7e7e7;
+}
